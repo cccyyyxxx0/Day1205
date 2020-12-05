@@ -8,6 +8,16 @@ package com.entity;
 public class User {
     private String Username;
 
+    private String Email;
+
+    public String getEmail() {
+        return Email;
+    }
+
+    public void setEmail(String email) {
+        Email = email;
+    }
+
     public String getUsername() {
         return Username;
     }
