@@ -8,6 +8,16 @@ package com.entity;
 public class User {
     private String Username;
 
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    private String password;
+
     private String Email;
 
     public String getEmail() {
